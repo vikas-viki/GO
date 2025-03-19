@@ -1,0 +1,30 @@
+# Binaries and build artifacts
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+/tmp/
+
+# Go modules
+go.sum
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# Environment files
+.env
+.env.*
+
+# Logs and debugging
+*.log
+debug/
+profile.out
+coverage.out
+
